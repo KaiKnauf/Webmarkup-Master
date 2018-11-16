@@ -1,3 +1,135 @@
-<b>Hello World</b>
-<br><br>
-My name is <b>Kai</b>. I'm 16 years old. Bla Bla Bla.
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "css/kaiknaufcss.css"/>
+		<link href = "https://fonts.googleapis.com/css?family=Bree+Serif" rel = "stylesheet"/>
+		
+		<!-- these are all the link tags for my fav icon -->
+		<link rel = "icon" href = "Fav-Icon/icon_png.png" sizes = "16x16" type = "image/png"/>
+		<link rel = "icon" href = "Fav-Icon/icon_win.ico" sizes = "32x32 48x48" type = "image/vnd.microsoft.icon"/>
+		<link rel = "icon" href = "Fav-Icon/icon_mac.icns" sizes = "128x128 512x512 8192x8192 32768x32768"/>
+		<link rel = "icon" href = "Fav-Icon/icon_ios.png" sizes = "57x57" type = "image/png"/>
+		<link rel = "icon" href = "Fav-Icon/icon_svg.svg" sizes = "any" type = "image/svg+xml"/>
+		
+		<meta charset = "utf-8"/>
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<meta name = "keywords" content = "Home, entertainment, media, games, console, mobile, board"/>
+		<meta name = "description" content = "Home Page"/>
+		<meta name = "author" content = "Kai Knauf"/>
+		
+		<title> Home </title>
+	</head>
+	<body>
+		<video autoplay muted loop id = "background-video">
+				<source src = "movie/background.mp4" type = "video/mp4">
+				<source src = "movie/background.ogg" type = "video/ogg">
+				Oops video is not available.
+		</video>
+	
+		<header id = "header">
+				<h1> 
+					<strong> <a href = "index.html"> COMPANY NAME </a> </strong>
+				</h1>
+		</header>
+		
+		<!-- this is the html code for the nav which I use for every page -->
+		<nav id = "nav">		
+			<ul>
+				<li><a href = "product.html"> 
+					Products 
+				</a></li>
+				<li><a href = "http://www.blogger.com"> 
+					Blog 
+				</a></li>
+				<li><a href = "contact.html"> 
+					Contact 
+				</a></li>
+			</ul>
+		</nav>
+		
+		<!-- this aside is empty and is used for ads (but I don't have any so that's why they are empty -->
+		<aside id = "aside-left">
+		</aside>
+		
+		<!-- I put every content in the main -->
+		<section class = "main">
+		
+			<header class = "blue-header">
+					<h2> we are </h2>			<!-- I used two h2 tags as that is the method I used to have a break in between them -->
+					<h2> entertainment </h2>
+			</header>	
+				
+			<section class = "images">
+					<article id = "images-product3">
+					<img 
+							src = "img/product3.png" 
+							alt = "Luigi standing next to Yoshi standing next to Mario." 
+							title = "Luigi, Yoshi, Mario"
+					/>
+					</article>
+					
+					<article id = "images-product8">
+					<img 	
+							src = "img/product8.png" 
+							alt = "The game Candy Crush being played by someone on a smartphone." 
+							title = "Candy Crush on a Smartphone"
+					/>
+					</article>
+			</section>
+			
+			<header class = "blue-header" id = "product8-header" >
+					<h2> mobile </h2>			<!-- I used two h2 tags as that is the method I used to have a break in between them -->
+					<h2> games </h2>
+			</header>
+			
+			<section class = "images">			
+					<img
+							id = "product8"
+							src = "img/product8.png" 
+							alt = "The game Candy Crush being played by someone on a smartphone." 
+							title = "Candy Crush on a Smartphone"
+					/>				
+			</section>
+			
+			<header id = "product6-header" class = "blue-header">
+					<h2> board </h2>			<!-- I used two h2 tags as that is the method I used to have a break in between them -->
+					<h2> games </h2>
+			</header>		
+			
+			<section class = "images">
+					<img
+							id = "product6"
+							src = "img/product6.png" 
+							alt = "Four wooden board game pieces in a row." 
+							title = "A board game"
+					/>
+			</section>
+		
+			<header id = "product9-header" class = "blue-header">
+					<h2> console </h2>			<!-- I used two h2 tags as that is the method I used to have a break in between them -->
+					<h2> games </h2>
+			</header>
+			
+			<section class = "images" id = "images-product9">
+					<img 
+							id = "medium_img_bottom" 
+							src = "img/product9.png" 
+							alt = "A PS4 controller laying on a table." 
+							title = "PS4 Controller"
+					/>
+			</section>
+			
+		</section>
+		
+		<!-- this aside is empty and is used for ads (but I don't have any so that's why they are empty -->
+		<aside id = "aside-right">
+		</aside>
+		
+		<!-- this footer code is the same for every page -->
+		<footer id = "footer">
+				<p>
+					&copy; 2018 - Kai Knauf - Inholland 
+				</p>
+		</footer>
+	</body>
+</html>

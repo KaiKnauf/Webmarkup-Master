@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<link rel = "stylesheet" type = "text/css" href = "css/kaiknaufcss.css"/>
+		<link href = "https://fonts.googleapis.com/css?family=Bree+Serif" rel = "stylesheet">
+		
+		<!-- these are all the link tags for my fav icon -->
+		<link rel = "icon" href = "Fav-Icon/icon_png.png" sizes = "16x16" type = "image/png"/>
+		<link rel = "icon" href = "Fav-Icon/icon_win.ico" sizes = "32x32 48x48" type = "image/vnd.microsoft.icon"/>
+		<link rel = "icon" href = "Fav-Icon/icon_mac.icns" sizes = "128x128 512x512 8192x8192 32768x32768"/>
+		<link rel = "icon" href = "Fav-Icon/icon_ios.png" sizes = "57x57" type = "image/png"/>
+		<link rel = "icon" href = "Fav-Icon/icon_svg.svg" sizes = "any" type = "image/svg+xml"/>
+		
+		<meta charset = "utf-8"/>
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+		<meta name = "keywords" content = "Contact, submit, name, email, topic, information, Write something"/>
+		<meta name = "description" content = "Contact Page"/>
+		<meta name = "author" content = "Kai Knauf"/>
+		
+		<title> Contact </title>
+	</head>
+	<body>	
+		<video autoplay muted loop id = "background-video">
+				<source src = "movie/background.mp4" type = "video/mp4">
+				<source src = "movie/background.ogg" type = "video/ogg">
+				Oops video is not available.
+		</video>
+		
+		<header id = "header">
+				<h1> 
+					<strong> <a href = "index.html"> COMPANY NAME </a> </strong> 
+				</h1>
+		</header>
+		
+		<!-- this is the html code for the nav which I use for every page -->
+		<nav id = "nav">				
+			<ul>
+				<li><a href = "index.html"> 
+					Home 
+				</a></li>
+				<li><a href = "product.html"> 
+					Product 
+				</a></li>
+				<li><a href = "http://www.blogger.com"> 
+					Blog 
+				</a></li>
+			</ul>
+		</nav>
+		
+		
+		<header id = "header-contact">
+				<p>
+					Contact
+				</p>
+		</header>
+		
+		<!-- this aside is empty and is used for ads (but I don't have any so that's why they are empty -->
+		<aside id = "aside-left">
+		</aside>
+		
+		<!-- I didn't make a lot of changes to the form; I only added a h3 tag for the "More information" -->
+		<form action="nowhere.php" method="post">
+			<h3> 
+					More information
+			</h3>
+			
+			<fieldset id = "SelectTopic">
+			<label>Select topic</label>
+				<select>
+					<option value="general">General inquiries</option>
+					<option value="press">Press relations</option>
+					<option value="recruitement">Recruitement</option>
+				</select>
+			</fieldset>
+			<fieldset class="contactFormFieldset">
+				<input
+						type="text"
+						name="contactFormName"
+						placeholder="Your name.."
+				/>
+			</fieldset>
+			<fieldset class="contactFormFieldset">
+				<input
+						type="email"
+						name="email"
+						placeholder="Your email.."
+				/>
+			</fieldset>
+			<fieldset>
+				<textarea
+						rows="7"
+						cols="40"
+						name="message"
+						placeholder="Write something.."
+				></textarea>
+			</fieldset>
+			<input
+					id = "button"
+					type="submit"
+					value="Submit"
+			/>
+		</form>
+		
+		<!-- this aside is empty and is used for ads (but I don't have any so that's why they are empty -->
+		<aside id = "aside-right">
+		</aside>
+		
+		<!-- this footer code is the same for every page -->
+		<footer id = "footer"> 
+			<p>
+				&copy; 2018 - Kai Knauf - Inholland
+			</p>
+		</footer>
+	</body>
+</html>

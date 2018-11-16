@@ -1,0 +1,4 @@
+User-agent: *
+Dissallowed: /inholland
+
+Sitemap: sitemap.xml
